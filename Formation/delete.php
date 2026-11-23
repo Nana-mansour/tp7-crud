@@ -5,7 +5,8 @@ require_once("../database/connexion.php");
 if (isset($_GET["num_formation"])) {
     $id = $_GET["num_formation"];
 } else {
-    echo "cette formation n'existe pas";
+    echo "cette formation n'existe pas
+    ";
     exit();
 }
 
